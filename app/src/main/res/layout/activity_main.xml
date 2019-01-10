@@ -100,8 +100,96 @@
                 android:id="@+id/q2TextView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="40dp"
+                android:layout_marginTop="50dp"
                 android:text="@string/q2Text"
+                android:textColor="@android:color/background_dark"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/q2EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="@string/q2Hint_text"
+                android:importantForAutofill="no"
+                android:inputType="number"
+                tools:ignore="UnusedAttribute" />
+
+            <Button
+                android:id="@+id/q2CheckButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/holo_green_light"
+                android:onClick="checkQ2"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/checkButton_text"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/q3TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="@string/q3Text"
+                android:textColor="@android:color/background_dark"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/q3CheckBox1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/q3Number1" />
+
+            <CheckBox
+                android:id="@+id/q3CheckBox2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/q3Number2" />
+
+            <CheckBox
+                android:id="@+id/q3CheckBox3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/q3Number3" />
+
+            <CheckBox
+                android:id="@+id/q3CheckBox4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/q3Number4" />
+
+            <CheckBox
+                android:id="@+id/q3CheckBox5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/q3Number5" />
+
+            <Button
+                android:id="@+id/q3CheckButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/holo_green_light"
+                android:onClick="checkQ3"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/checkButton_text"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/q4TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="@string/q3Text"
                 android:textColor="@android:color/background_dark"
                 android:textSize="16sp" />
         </LinearLayout>
