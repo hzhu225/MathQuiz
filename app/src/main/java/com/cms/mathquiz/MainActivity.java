@@ -28,12 +28,12 @@ public class MainActivity extends AppCompatActivity
         RadioButton q1RB3 = findViewById(R.id.q1RadioButton3);
         if(q1RB3.isChecked())
         {
-            totalMark += 25;
+            totalMark += 25;                                      //if the answer of q1 is correct, add 25 marks to totalMark
         }
 
         //Check question 2
         EditText q2Result = findViewById(R.id.q2EditText);
-        if(q2Result.getText().toString().equals("286"))
+        if(q2Result.getText().toString().equals("286"))           //if the answer of q2 is correct, add 30 marks to totalMark
         {
             totalMark += 30;
         }
@@ -44,19 +44,20 @@ public class MainActivity extends AppCompatActivity
         CheckBox q3CB3 = findViewById(R.id.q3CheckBox3);
         CheckBox q3CB4 = findViewById(R.id.q3CheckBox4);
         CheckBox q3CB5 = findViewById(R.id.q3CheckBox5);
-        if(!q3CB1.isChecked() && q3CB2.isChecked() && q3CB3.isChecked()&& !q3CB4.isChecked()&& !q3CB5.isChecked())
+        if(!q3CB1.isChecked() && q3CB2.isChecked() && q3CB3.isChecked() && !q3CB4.isChecked() && !q3CB5.isChecked())        //if the answer of q3 is correct, add 15 marks to totalMark
         {
             totalMark += 15;
         }
 
         //Check question 4
         EditText q4Result = findViewById(R.id.q4EditText);
-        if(q4Result.getText().toString().equals("38"))
+        if(q4Result.getText().toString().equals("38"))               //if the answer of q4 is correct, add 30 marks to totalMark
         {
             totalMark += 30;
         }
 
-        String message = "You get " + totalMark + " marks out of 100.";
+        //Use toast to show total marks
+        String message = "You get " + totalMark + " marks out of 100";
         Toast toast = Toast.makeText(this, message, Toast.LENGTH_LONG);
         toast.setGravity(Gravity.TOP,0,10);
         toast.show();

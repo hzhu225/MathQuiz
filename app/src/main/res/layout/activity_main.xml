@@ -183,7 +183,7 @@
                 android:paddingRight="7dp"
                 android:text="@string/submitButton_text"
                 android:textAllCaps="false"
-                android:textSize="15sp"
+                android:textSize="17sp"
                 android:textStyle="bold" />
 
         </LinearLayout>
