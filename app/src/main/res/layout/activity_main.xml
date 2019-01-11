@@ -156,7 +156,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:contentDescription="@string/q1ImageDesc"
+                android:contentDescription="@string/q4ImageDesc"
                 android:scaleType="fitCenter"
                 app:srcCompat="@drawable/q4" />
 

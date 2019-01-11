@@ -15,5 +15,6 @@
     <string name="q3Number4">1199</string>
     <string name="q3Number5">3599</string>
     <string name="q4Text"><b>Question 4: (30 marks)</b>\n\nIn following column addition operation, each letter represents a different digit. What is the value of S + E + N + D + M + O + R + Y?</string>
+    <string name="q4ImageDesc">q4 Image</string>
     <string name="submitButton_text">Submit</string>
 </resources>
