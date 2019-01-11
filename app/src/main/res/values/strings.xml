@@ -1,18 +1,19 @@
 <resources>
     <string name="app_name">Math Quiz</string>
-    <string name="headerText">Try some math challenge!</string>
-    <string name="checkButton_text">Check Answer</string>
-    <string name="q1Text"><b>Question 1:</b>\n\nThe number 3, 4 and 6 denote the areas of their respective triangles. What is the area of the yellow region?</string>
+    <string name="headerText">Try some math challenges!</string>
+    <string name="q1Text"><b>Question 1: (25 marks)</b>\n\nThe number 3, 4 and 6 denote the areas of their respective triangles. What is the area of the yellow region?</string>
     <string name="q1ImageDesc">q1 Image</string>
     <string name="q1Choice1">7.5</string>
     <string name="q1Choice2">8.5</string>
     <string name="q1Choice3">9.5</string>
-    <string name="q2Text"><b>Question 2:</b>\n\n10 exactly same coins are allocated to 4 people. How many different results are possible? (people can get 0 coin)</string>
-    <string name="q2Hint_text">Please type your answer here</string>
-    <string name="q3Text"><b>Question 3:</b>\n\nTick all prime numbers.</string>
+    <string name="q2Text"><b>Question 2: (30 marks)</b>\n\n10 exactly same coins are allocated to 4 people. How many different results are possible? (people can get 0 coin)</string>
+    <string name="editText_hint">Please type your answer here</string>
+    <string name="q3Text"><b>Question 3: (15 marks)</b>\n\nTick all prime numbers.</string>
     <string name="q3Number1">9</string>
     <string name="q3Number2">59</string>
     <string name="q3Number3">499</string>
     <string name="q3Number4">1199</string>
     <string name="q3Number5">3599</string>
+    <string name="q4Text"><b>Question 4: (30 marks)</b>\n\nIn following column addition operation, each letter represents a different digit. What is the value of S + E + N + D + M + O + R + Y?</string>
+    <string name="submitButton_text">Submit</string>
 </resources>
